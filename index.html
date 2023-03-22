@@ -730,7 +730,7 @@
                     <h4>Tine-ma la curent</h4>
                     <p>Pentru a fi tinut la curent, introduceti adresa de email:</p>
                     <form target="_blank" action="https://formsubmit.co/contact@techcamp.ro" method="post">
-                        <input type="email" name="email" required><input type="submit" value="Aboneaza-ma">
+                        <input type="email" name="email" required oninvalid="this.setCustomValidity('Acest camp trebuie completat')"><input type="submit" value="Aboneaza-ma">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_next" value="http://techcamp.ro/subscribed.html">
                     </form>
